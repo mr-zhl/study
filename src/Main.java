@@ -100,6 +100,7 @@ public class Main {
 
         //把本地仓库推送到远程仓库
         //git push github master
+        //git push gitee master
 
         //第一次如果初始失败
         //解决方案
@@ -109,6 +110,79 @@ public class Main {
         //git pull gitee master
         // git pull github master --allow-unrelated-histories
         // git pull gitee master --allow-unrelated-histories
+
+        //查看远程仓库
+        //git remote -v
+
+        //产生远程仓库
+        //git remote remove 仓库名
+
+        //添加第二个远程地址时使用以下命令：
+        //git remote set-url --add 仓库名 仓库地址
+
+        //工作仓库
+        //1.创建远程仓库
+        //2.从远程仓库下载代码
+        //3.修改代码并提交
+
+        //分支管理
+
+        //查看分支
+        //git branch
+
+        //创建分支
+        //git branch 分支名
+
+        //切换分支
+        //git checkout 分支名
+
+        //冲突
+        //1,手动修改冲突代码
+        //2.add.commit
+        //3.再合并分支
+
+
+
+
+        //git checkout -b 分支名
+
+
+        //把Dev 合并到master中
+        //1.切换到master
+        //2.执行git merge dev
+
+        //删除分支
+        //git branch -d 分支名
+
+        //git log --graph --all
+
+
+
+        //保持当前工作区内容
+        //git stash
+
+        //查看保持内容
+        //git stash list
+
+        //恢复工作区内容
+        //git stash apply
+
+        //删除备份
+        //git stash drop
+
+        //恢复工作区内容,并删除备份
+        //git stash pop
+
+
+        //可视化操作
+
+
+
+
+
+
+
+
 
 
 
