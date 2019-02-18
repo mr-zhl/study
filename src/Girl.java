@@ -39,4 +39,8 @@ public class Girl {
     public void shopping(){
         System.out.println("女孩在购物!!!");
     }
+
+    public void sleep(){
+        System.out.println("女孩在休息!!!");
+    }
 }
