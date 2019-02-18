@@ -60,6 +60,59 @@ public class Main {
         //export LANG="zh_CN.UTF-8"
         //export LC_ALL="zh_CN.UTF-8"
 
+        //查看日志
+        //git log
+
+        //版本回退
+        //git reset --hard 版本号
+        //git reset --hard 8bf68
+        //怎样回来:reflog
+
+        //HEAD:当前的指向,最后一次提交
+
+        //退回到HEAD的前一个指向
+        //git reset --hard HEAD^
+        //git reset --hard HEAD~100
+
+        //查看所有日志
+        //git reflog
+
+        //工作区,暂存区,版本库,远程仓库
+        //工作区:当前编辑的工程
+        //站存区:当执行了git add后,文件会存入暂存区
+        //版本库:当执行了git commit后,会把暂存区的文件提交到版本库
+        //注:工作区,暂存区,版本库都在自己电脑上
+        //暂存区,版本库,都在.git
+        //远程仓库:git服务器
+
+        //撤销修改
+        //1.工作区:直接修改,或命令:git checkout -- 文件
+        //2.暂存区:直接修改,再次add,或命令:git reset HEAD 文件
+        //3.版本库:版本回退
+
+        //删除文件:
+        //git rm 文件
+
+        //远程仓库
+        //添加远程仓库
+        //git remote add 仓库名 仓库地址
+        //比如:git remote add github https://github.com/mr-zhl/study.git
+
+        //把本地仓库推送到远程仓库
+        //git push github master
+
+        //第一次如果初始失败
+        //解决方案
+        //远程仓库下载东西
+        // git pull
+        // git pull github master
+        //git pull gitee master
+        // git pull github master --allow-unrelated-histories
+        // git pull gitee master --allow-unrelated-histories
+
+
+
+
 
 
 
