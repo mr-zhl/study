@@ -35,4 +35,8 @@ public class Girl {
                 ", age=" + age +
                 '}';
     }
+
+    public void shopping(){
+        System.out.println("女孩在购物!!!");
+    }
 }
